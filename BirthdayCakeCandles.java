@@ -18,7 +18,7 @@ public class BirthdayCakeCandles {
         for(int i=0;i<ar.length;i++)
         {
                 if(ar[i]==max)
-                    count++;
+                    ++count;
         }
         return count;
     }
@@ -48,6 +48,6 @@ public class BirthdayCakeCandles {
 
         bufferedWriter.close();
 
-        scanner.close();
+        scanner.close();  //closing the scanner object
     }
 }
