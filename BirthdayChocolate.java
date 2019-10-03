@@ -25,7 +25,7 @@ public class BirthdayChocolate {
                 sum+=s.get(i+j);
             }
             if(sum==d)
-                count++;
+                ++count;
         }
         return count;
     }
@@ -46,7 +46,7 @@ public class BirthdayChocolate {
 
         int m = Integer.parseInt(dm[1]);
 
-        int result = birthday(s, d, m);
+        int result = birthday(s, d, m);//birthday result
 
         bufferedWriter.write(String.valueOf(result));
         bufferedWriter.newLine();
